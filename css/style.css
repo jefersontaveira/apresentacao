@@ -238,8 +238,18 @@ body {
 }
 
 .solution-card .icon {
-    font-size: 3rem;
+    width: 54px;
+    height: 54px;
     margin-bottom: 1.5rem;
+    color: var(--accent);
+    display: flex;
+    align-items: center;
+}
+
+.solution-card .icon svg {
+    width: 100%;
+    height: 100%;
+    fill: currentColor;
 }
 
 .solution-card h3 {
